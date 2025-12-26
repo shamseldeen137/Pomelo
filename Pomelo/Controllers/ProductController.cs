@@ -57,7 +57,7 @@ namespace Pomelo.Controllers
         }
 
         // POST: api/products/by-ids
-        [HttpPost("Get-Without-Enumerable-by-ids")]
+        [HttpPost("Get-Wit-Array-by-ids")]
         public async Task<IActionResult> GetByIds([FromBody] int[] ids)
         {
             if (ids == null || ids.Length == 0)
